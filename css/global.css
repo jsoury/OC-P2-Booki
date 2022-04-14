@@ -1,0 +1,16 @@
+@import url("styles.css");
+@import url("icon.css");
+@import url("header.css");
+@import url("search.css");
+
+*{
+    box-sizing: border-box;    
+}
+body{
+    font-family: "Raleway", "Sans serif";
+    max-width: 1440px;
+    margin: auto;
+}
+section{
+    margin-bottom: 40px;
+}
