@@ -1,6 +1,7 @@
 :root{
-    --blue:#0065FC;
-    --lightest-blue:#DEEBFF;
-    --background-grey:#F2F2F2;
-    --link-color : #000000  
+    --blue-color:#0065FC;
+    --lightest-blue-color:#DEEBFF;
+    --grey-color:#F2F2F2;
+    --black-color : #000000; 
+    --white-color : #FFFFFF;  
 }

@@ -18,16 +18,16 @@
 .header .header--nav li a{
     display: block;
     padding: 40px;
-    color: var(--link-color);
+    color: var(--black-color);
     text-decoration: none;
 }
 
 .header .header--nav li a:hover:not(.active){    
-    color: var(--blue);
+    color: var(--blue-color);
     border-top: 2px solid;    
 }
 
 .header .header--nav li a.active{    
-    color: var(--blue);
+    color: var(--blue-color);
     border-top: 2px solid;    
 }

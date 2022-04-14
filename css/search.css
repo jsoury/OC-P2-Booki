@@ -4,24 +4,92 @@ flex-direction: row;
 align-items: center;
 margin: 20px 0 20px 0;
 }
-.search--form i{
+
+.search--form input{
+    border-style: solid;
+    border-width: 2px 0;
+    border-color: var(--grey-color);
+    padding: 18px;
+    max-height: 57px;
 
 }
-.search--form input{
-    border: 2px solid var(--background-grey);
-    padding: 18px;
-}
 .search--form input:focus, .search--form input:focus-visible{
-    border: 2px solid var(--blue);
+    border: 2px solid var(--blue-color);
     padding: 18px;
 }
 .search--form button{
-
+    padding: 20px;
+    color:var(--white-color);
+    border: none;
+    background-color: var(--blue-color);
+    border-radius: 0 20px 20px 0;
+    max-height: 57px; 
 }
 
 .search__form--icon{
-    background-color: var(--background-grey);
-    padding: 20px;
+    background-color: var(--grey-color);
+    padding: 18.5px;
     border-radius: 20px 0 0 20px;
     text-align: center;
+    max-height: 57px;
 }
+
+.search--filters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;   
+    margin:30px 0 30px 0; 
+}
+
+.search--filters .filter{
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--grey-color);
+    text-decoration: none;
+    margin: 0 10px 0 20px;
+    border-radius: 50px;
+    padding-right: 20px;
+    height: 45px;
+}
+
+.search--filters i{
+    color: var(--blue-color);
+    text-align: center;
+
+}
+
+.search .icon--round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.search--filters .search__filter--icon{    
+    background-color: var(--lightest-blue-color);
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    position: relative;
+    left: -5px;
+}
+
+.search .info{
+    display: flex;
+    align-items: center;
+}
+.search .info--icon{    
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--grey-color);
+    margin-right: 20px;
+}
+.search .info i{
+    font-size: 10px;
+    color:var(--blue-color);    
+}
+
+
