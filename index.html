@@ -25,7 +25,11 @@
   <body>
     <!-- HEADER SECTION-->
     <section class="header" id="header">
-      <img class="header--logo" src="./images/logo/Booki.png" />
+      <img
+        class="header--logo"
+        src="./images/logo/Booki.png"
+        alt="logo booki"
+      />
       <nav class="header--nav">
         <ul>
           <li><a href="#hosting" class="active">Hébergements</a></li>
@@ -39,40 +43,195 @@
     <section class="search" id="search">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <span>En plein centre ville ou en pleine nature</span>
-      <form action="" class="search--form">
+      <form method="POST" action="javascript:void(0);" class="search--form">
         <div class="search__form--icon">
           <i class="fa-solid fa-location-dot"></i>
-      </div>
-        <input type="text" placeholder="Marseille,France"/>
-        <button type="">Rechercher</button>
+        </div>
+        <input type="text" placeholder="Marseille,France" />
+        <button type="submit">Rechercher</button>
       </form>
-      <div class="search--filters">
+      <div class="search--filters strong">
         Filtres
-        <div class="filter capital"><div class="search__filter--icon icon--round"><i class="fa-solid fa-money-bill-1-wave"></div></i> économique</div>
-        <div class="filter"><div class="search__filter--icon icon--round"><i class="fa-solid fa-child-reaching"></div></i> Familial</div>
-        <div class="filter"><div class="search__filter--icon icon--round"><i class="fa-solid fa-heart"></div></i> Romantique</div>
-        <div class="filter"><div class="search__filter--icon icon--round"><i class="fa-solid fa-dog"></div></i> Animaux autorisés</div>
+        <div class="filter capital">
+          <div class="search__filter--icon icon--round">
+            <i class="fa-solid fa-money-bill-1-wave"></i>
+          </div>
+          économique
+        </div>
+        <div class="filter">
+          <div class="search__filter--icon icon--round">
+            <i class="fa-solid fa-child-reaching"></i>
+          </div>
+          Familial
+        </div>
+        <div class="filter">
+          <div class="search__filter--icon icon--round">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          Romantique
+        </div>
+        <div class="filter">
+          <div class="search__filter--icon icon--round">
+            <i class="fa-solid fa-dog"></i>
+          </div>
+          Animaux autorisés
+        </div>
       </div>
-      <div class="info"><div class="info--icon icon--round"><i class="fa-solid fa-info"></i></div><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
+      <div class="info">
+        <div class="info--icon icon--round">
+          <i class="fa-solid fa-info"></i>
+        </div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
     </section>
     <!-- END SEARCH SECTION -->
     <!-- HOSTING SECTION -->
     <section class="hosting" id="hosting">
-      <h2>Hébergements à Marseille</h2>
+      <div class="hosting--city">
+        <h2>Hébergements à Marseille</h2>
+        <div class="card--content">
+          <div class="card">
+            <div class="card--image">
+              <img
+                src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="hebergements"
+              />
+            </div>
+            <div class="card--body">
+              <div class="card__body--title strong">Auberge La Cannebière</div>
+              <div class="card__body--price">
+                Nuit à partir de <span class="card__price strong">25 €</span>
+              </div>
+              <div class="card__body--stars">
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card--image">
+              <img
+                src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="hebergements"
+              />
+            </div>
+            <div class="card--body">
+              <div class="card__body--title strong">Auberge La Cannebière</div>
+              <div class="card__body--price">
+                Nuit à partir de <span class="card__price strong">25 €</span>
+              </div>
+              <div class="card__body--stars">
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card--image">
+              <img
+                src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="hebergements"
+              />
+            </div>
+            <div class="card--body">
+              <div class="card__body--title strong">Auberge La Cannebière</div>
+              <div class="card__body--price">
+                Nuit à partir de <span class="card__price strong">25 €</span>
+              </div>
+              <div class="card__body--stars">
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card--image">
+              <img
+                src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="hebergements"
+              />
+            </div>
+            <div class="card--body">
+              <div class="card__body--title strong">Auberge La Cannebière</div>
+              <div class="card__body--price">
+                Nuit à partir de <span class="card__price strong">25 €</span>
+              </div>
+              <div class="card__body--stars">
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star active"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+                <span class="card__stars--star"
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hosting--popular">
+        <h2>Les plus populaires</h2>
+      </div>
     </section>
     <!-- END HOSTING SECTION -->
 
     <!-- ACTIVITY SECTION -->
     <section class="activity" id="activity">
       <h2>Activités à marseille</h2>
-      
     </section>
     <!-- END ACTIVITY SECTION -->
 
     <!-- FOOTER -->
     <footer class="footer" id="footer">
       <h3>A propos</h3>
-    </section>
+    </footer>
     <!-- END FOOTER -->
   </body>
 </html>

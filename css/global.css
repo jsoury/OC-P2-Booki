@@ -2,6 +2,8 @@
 @import url("icon.css");
 @import url("header.css");
 @import url("search.css");
+@import url("hosting.css");
+@import url("card.css");
 
 *{
     box-sizing: border-box;    
@@ -19,4 +21,8 @@ i{
 }
 .capital{
     text-transform: capitalize;
+}
+
+.strong{
+    font-weight: 700;
 }

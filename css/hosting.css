@@ -1,0 +1,28 @@
+.hosting {
+ display: flex;
+ flex-direction: row;
+}
+
+.hosting .hosting--city{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: var(--grey-color);
+    border-radius: 25px;
+    margin-right:25px;
+    padding: 20px;
+}
+
+.hosting .card--content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.hosting .hosting--popular{
+    background-color: var(--grey-color);
+    padding: 25px;
+    border-radius: 25px;
+    width: 40%;
+}

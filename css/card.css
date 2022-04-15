@@ -1,0 +1,26 @@
+.hosting .card{
+    background-color: var(--white-color);
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);  
+}
+.hosting .card .card--image img{
+   object-fit: cover;
+   height: 100px;
+   width: 100%;
+   border-radius: 25px 25px 0 0;
+}
+
+.hosting .card--body{   
+    margin: 15px;    
+}
+
+.hosting .card .card__stars--star{
+    color: var(--grey-color);
+}
+
+.hosting .card .card__stars--star.active{
+    color: var(--blue-color);
+}
