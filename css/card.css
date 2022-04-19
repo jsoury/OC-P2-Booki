@@ -1,26 +1,67 @@
-.hosting .card{
-    background-color: var(--white-color);
-    border-radius: 25px;
-    padding: 5px;
-    margin: 10px;
-    width: 30%;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);  
-}
-.hosting .card .card--image img{
-   object-fit: cover;
-   height: 100px;
-   width: 100%;
-   border-radius: 25px 25px 0 0;
+.hosting .card {
+  display: flex;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--white-color);
 }
 
-.hosting .card--body{   
-    margin: 15px;    
+.hosting .card--body {
+  line-height: 1.6;
+  margin: 10px 20px;
 }
 
-.hosting .card .card__stars--star{
-    color: var(--grey-color);
+.hosting .card .card__stars--star {
+  color: var(--grey-color);
 }
 
-.hosting .card .card__stars--star.active{
-    color: var(--blue-color);
+.hosting .card .card__stars--star.active {
+  color: var(--blue-color);
+}
+
+.hosting .card:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+.hosting--city .card {
+  flex-direction: column;
+  flex: 1 0 250px;
+}
+.hosting--city .card .card--image {
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hosting--city .card .card--image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.hosting--popular .card {
+  flex-direction: row;
+  flex: 1 0 350px;
+}
+.hosting--popular .card .card--image {
+  height: 160px;
+  width: 140px;
+}
+
+.hosting--popular .card .card--image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.hosting--popular .card .card--body {
+  position: relative;
+}
+
+.hosting--popular .card .card__body--stars {
+  position: absolute;
+  bottom: 0;
 }

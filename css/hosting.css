@@ -1,28 +1,54 @@
 .hosting {
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
-.hosting .hosting--city{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    background-color: var(--grey-color);
-    border-radius: 25px;
-    margin-right:25px;
-    padding: 20px;
+.hosting a {
+  text-decoration: none;
+  color: var(--black-color);
+  display: inherit;
+  flex-direction: inherit;
 }
 
-.hosting .card--content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;    
+.hosting .card i {
+  font-size: 14px;
 }
 
-.hosting .hosting--popular{
-    background-color: var(--grey-color);
-    padding: 25px;
-    border-radius: 25px;
-    width: 40%;
+.hosting button {
+  border: none;
+  text-align: left;
+  margin: 40px 0 0 0;
+}
+
+.hosting button :hover {
+  color: var(--blue-color);
+}
+
+.hosting .hosting--city {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: var(--grey-color);
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.hosting .card--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hosting .hosting--popular {
+  background-color: var(--grey-color);
+  padding: 25px;
+  border-radius: 25px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }

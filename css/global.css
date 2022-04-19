@@ -4,25 +4,40 @@
 @import url("search.css");
 @import url("hosting.css");
 @import url("card.css");
+@import url("activity.css");
+@import url("footer.css");
 
-*{
-    box-sizing: border-box;    
+* {
+  box-sizing: border-box;
 }
-body{
-    font-family: "Raleway", "Sans serif";
-    max-width: 1440px;
-    margin: auto;
+body {
+  font-family: "Raleway", "Sans serif";
+  color: var(--black-color);
 }
-section{
-    margin-bottom: 40px;
+main {
+  max-width: 1440px;
+  margin: auto;
 }
-i{
-  font-size: 20px ;
-}
-.capital{
-    text-transform: capitalize;
+section {
+  margin-bottom: 40px;
 }
 
-.strong{
-    font-weight: 700;
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+i {
+  font-size: 20px;
+}
+.capital {
+  text-transform: capitalize;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.float--right {
+  float: right;
 }
