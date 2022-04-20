@@ -25,6 +25,9 @@
   border-radius: 0 20px 20px 0;
   max-height: 57px;
 }
+.search--form button i {
+  display: none;
+}
 
 .search__form--icon {
   background-color: var(--grey-color);
@@ -123,4 +126,30 @@
 .search .info i {
   font-size: 10px;
   color: var(--blue-color);
+}
+/* rull for tablet */
+@media only screen and (max-width: 992px) {
+  .search {
+    padding: 10px;
+  }
+  .search--form input {
+    width: 100%;
+  }
+  .search--form button span {
+    display: none;
+  }
+  .search--form button i {
+    display: block;
+  }
+  .search--filters .search__filter--title {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+/* rull for cellphone */
+@media only screen and (max-width: 768px) {
+  .search--filters .filter {
+    margin: 5px 0;
+  }
 }

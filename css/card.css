@@ -46,8 +46,9 @@
   flex: 1 0 350px;
 }
 .hosting--popular .card .card--image {
+  width: 40%;
   height: 160px;
-  width: 140px;
+  aspect-ratio: 4 / 3;
 }
 
 .hosting--popular .card .card--image img {
@@ -64,4 +65,24 @@
 .hosting--popular .card .card__body--stars {
   position: absolute;
   bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .hosting--popular .card {
+    flex: 1 0 130px;
+    margin: 0 60px;
+  }
+}
+/* rull for cellphone */
+@media only screen and (max-width: 768px) {
+  .hosting--city .card {
+    margin: 0;
+    flex: 1 0 120px;
+  }
+  .hosting--popular .card {
+    margin: 0;
+  }
+  .hosting--popular .card .card--image {
+    height: 120px;
+  }
 }

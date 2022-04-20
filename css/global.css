@@ -14,7 +14,8 @@ body {
   font-family: "Raleway", "Sans serif";
   color: var(--black-color);
 }
-main {
+
+.container {
   max-width: 1440px;
   margin: auto;
 }
@@ -40,4 +41,29 @@ i {
 
 .float--right {
   float: right;
+}
+.hidden {
+  display: none;
+}
+
+/* rull for tablet */
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    margin: 0px 50px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+/* rull for cellphone */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  .container {
+    margin: 0;
+  }
 }

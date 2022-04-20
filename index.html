@@ -23,9 +23,12 @@
     <title>Booki</title>
   </head>
   <body>
-    <main class="content">
+    <div class="container">
       <!-- HEADER SECTION-->
       <section class="header" id="header">
+        <h1 class="hidden">
+          Booki, Trouvez votre hébergement pour des vacances de rêve
+        </h1>
         <img
           class="header--logo"
           src="./images/logo/Booki.png"
@@ -49,10 +52,13 @@
             <i class="fa-solid fa-location-dot"></i>
           </div>
           <input type="text" placeholder="Marseille,France" />
-          <button type="submit">Rechercher</button>
+          <button type="submit">
+            <span>Rechercher</span>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </form>
         <div class="search--filters strong">
-          Filtres
+          <div class="search__filter--title">Filtres</div>
           <div class="filter capital">
             <div class="search__filter--icon icon--round">
               <i class="fa-solid fa-money-bill-1-wave"></i>
@@ -300,12 +306,14 @@
               </a>
             </div>
           </div>
-          <button class="strong"><a href="#hosting">Afficher plus</a></button>
+          <a href="#hosting" class="strong button">Afficher plus</a>
         </div>
         <div class="hosting--popular">
           <h2>
             Les plus populaires
-            <span class="float--right"><i class="fa-solid fa-star"></i></span>
+            <span class="float--right"
+              ><i class="fa-solid fa-chart-line"></i
+            ></span>
           </h2>
 
           <div class="card--content">
@@ -425,8 +433,8 @@
         <h2>Activités à marseille</h2>
         <div class="container">
           <div class="column">
-            <a class="card" href="#activity">
-              <div class="card--content activity1">
+            <a class="card activity1" href="#activity">
+              <div class="card--content">
                 <img
                   src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                   alt="Vieux port"
@@ -437,8 +445,8 @@
           </div>
 
           <div class="column">
-            <a class="card" href="#activity">
-              <div class="card--content activity2">
+            <a class="card activity2" href="#activity">
+              <div class="card--content">
                 <img
                   src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                   alt="Fort Pomègues"
@@ -446,8 +454,8 @@
               </div>
               <div class="card--title strong">Fort Pomègues</div>
             </a>
-            <a class="card" href="#activity">
-              <div class="card--content activity3">
+            <a class="card activity3" href="#activity">
+              <div class="card--content">
                 <img
                   src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                   alt="&Icirc;les du Frioul"
@@ -457,8 +465,8 @@
             </a>
           </div>
           <div class="column">
-            <a class="card" href="#activity">
-              <div class="card--content activity4">
+            <a class="card activity4" href="#activity">
+              <div class="card--content">
                 <img
                   src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                   alt="Parc National des Calanques"
@@ -468,8 +476,8 @@
             </a>
           </div>
           <div class="column">
-            <a class="card" href="#activity">
-              <div class="card--content activity5">
+            <a class="card activity5" href="#activity">
+              <div class="card--content">
                 <img
                   src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                   alt="Notre-dame-de-la-Garde"
@@ -477,8 +485,8 @@
               </div>
               <div class="card--title strong">Notre-dame-de-la-Garde</div>
             </a>
-            <a class="card" href="#activity">
-              <div class="card--content activity6">
+            <a class="card activity6" href="#activity">
+              <div class="card--content">
                 <img
                   src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                   alt="Parc Longchamp"
@@ -490,8 +498,8 @@
         </div>
       </section>
       <!-- END ACTIVITY SECTION -->
-    </main>
-    <!-- END MAIN -->
+    </div>
+    <!-- END CONTAINER -->
     <!-- FOOTER -->
     <footer class="footer" id="footer">
       <div class="row">
@@ -531,6 +539,15 @@
             </li>
           </ul>
         </div>
+        <p class="w3c">
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img
+              style="border: 0; width: 88px; height: 31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="CSS Valide !"
+            />
+          </a>
+        </p>
       </div>
     </footer>
     <!-- END FOOTER -->
