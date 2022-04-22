@@ -56,7 +56,8 @@
   .hosting {
     flex-direction: column-reverse;
   }
-  .hosting .card--content {
+  .hosting--popular .card--content {
+    flex-direction: column;
     gap: 10px;
   }
   .hosting .hosting--city {

@@ -141,15 +141,11 @@
   .search--form button i {
     display: block;
   }
+  .search--filters .filter {
+    margin: 5px 3px;
+  }
   .search--filters .search__filter--title {
     width: 100%;
     margin: 20px 0;
-  }
-}
-
-/* rull for cellphone */
-@media only screen and (max-width: 768px) {
-  .search--filters .filter {
-    margin: 5px 0;
   }
 }
