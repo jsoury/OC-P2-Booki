@@ -1,21 +1,21 @@
-.header {
+.header .nav--bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.header .header--nav ul {
+.header .nav--bar ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.header .header--nav li {
+.header .nav--bar li {
   float: left;
 }
 
-.header .header--nav li a {
+.header .nav--bar li a {
   display: block;
   padding: 40px;
   color: var(--black-color);
@@ -23,12 +23,12 @@
   border-top: 2px solid var(--white-color);
 }
 
-.header .header--nav li a:hover:not(.active) {
+.header .nav--bar li a:hover:not(.active) {
   color: var(--blue-color);
   border-top: 2px solid;
 }
 
-.header .header--nav li a.active {
+.header .nav--bar li a.active {
   color: var(--blue-color);
   border-top: 2px solid;
 }
@@ -38,27 +38,28 @@
 
 /* rull for cellphone */
 @media only screen and (max-width: 768px) {
-  .header {
+  .header .nav--bar {
     flex-direction: column;
+    margin-bottom: 30px;
   }
   .header .header--logo {
     height: 40px;
   }
-  .header .header--nav ul {
+  .header .nav--bar ul {
     display: inline-flex;
   }
-  .header .header--nav li {
+  .header .nav--bar li {
     width: 50%;
   }
-  .header .header--nav li a {
+  .header .nav--bar li a {
     padding: 10px 40px;
   }
-  .header .header--nav li a:hover:not(.active) {
+  .header .nav--bar li a:hover:not(.active) {
     border-top: none;
     border-bottom: 2px solid;
   }
 
-  .header .header--nav li a.active {
+  .header .nav--bar li a.active {
     border-top: none;
     border-bottom: 2px solid;
   }
