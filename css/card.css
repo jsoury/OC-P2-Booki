@@ -131,6 +131,6 @@
   }
   .hosting--popular .card {
     min-height: 170px;
-    flex: 1 0 auto;
+    flex: 1 1 50px;
   }
 }
