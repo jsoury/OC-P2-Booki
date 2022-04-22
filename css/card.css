@@ -67,27 +67,70 @@
   bottom: 0;
 }
 
+@media only screen and (max-width: 1440px) {
+  .hosting {
+    flex-direction: column-reverse;
+  }
+  .hosting .hosting--city {
+    width: 100%;
+  }
+  .hosting--city .card {
+    flex: 1 0 316px;
+  }
+
+  .hosting .hosting--popular {
+    width: 100%;
+  }
+  .hosting--popular .card {
+    flex-direction: row;
+    flex: 1 1 auto;
+    width: 50px;
+    min-height: 180px;
+  }
+  .hosting--popular .card .card--image {
+    width: 33%;
+    height: 100%;
+  }
+}
+
 @media only screen and (max-width: 992px) {
+  .hosting--city .card {
+    margin: 0;
+    flex: 1 0 250px;
+  }
   .hosting--popular .card {
     flex: 1 0;
     margin: 0 60px;
     width: 80%;
   }
   .hosting--popular .card .card--image {
-    width: auto;
+    height: auto;
   }
 }
 /* rull for cellphone */
 @media only screen and (max-width: 768px) {
   .hosting--city .card {
-    margin: 0;
-    flex: 1 0 120px;
+    flex: 1 0 310px;
+    margin: auto;
+    width: 80%;
   }
   .hosting--popular .card {
-    margin: 0;
+    margin: auto;
+    min-height: 150px;
+    flex: 1 1 auto;
     width: 100%;
   }
-  .hosting--popular .card .card--image {
-    height: 120px;
+}
+@media only screen and (max-width: 375px) {
+  .hosting .card i {
+    font-size: 8px;
+  }
+  .hosting--city .card {
+    margin: 0;
+    flex: 1 0 150px;
+  }
+  .hosting--popular .card {
+    min-height: 170px;
+    flex: 1 0 auto;
   }
 }
