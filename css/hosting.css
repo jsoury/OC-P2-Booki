@@ -80,7 +80,6 @@
   }
 }
 
-/* rull for cellphone */
 @media only screen and (max-width: 768px) {
   .hosting .hosting--city {
     border-radius: 0;
